@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-image: url(../Images/banner.jpg);
+    background-position: 60%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+}
+
+.logo {
+    width: 3%;
+}
+
+.nav-a {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 134, 29);
+    align-items: center;
+    height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: aliceblue;
+    background-color: black;
+    margin: 0.2rem;
+    padding: 0.4rem;
+}
+
+.section-products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products {
+    height: 8rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.div-products {
+    background-color: rgb(8, 134, 29);
+    margin: 1rem;
+    text-align: center;
+}
+
+ol {
+    font-size: 0.8rem;
+}
+
+.h4-info {
+    font-size: 0.9rem;
+}
+
+p {
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.section-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.image-info {
+    object-fit: contain;
+    width: 18rem;
+    border-radius: 18%;
+    margin-right: 9rem;
+}
+
+.div-list {
+    margin-right: 14rem;
+}
+
+footer {
+    background-color: rgb(149, 235, 206);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    flex-wrap: wrap;
+}
+
+fieldset {
+    padding: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .section-info {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section-info {
+        flex-direction: column;
+
+    }
+
+    footer {
+        height: 6rem;
+    }
+
+    .image-info {
+        margin-right: 2rem;
+    }
+    .div-list {
+        margin-right: 2rem;
+    }
+}
